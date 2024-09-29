@@ -17,8 +17,8 @@ if uploaded_file:
     df = load_excel(uploaded_file)
     
     # Mostrar una vista previa del archivo
-    st.write("Vista previa del archivo cargado:")
-    st.write(df.head())
+    #st.write("Vista previa del archivo cargado:")
+    # st.write(df.head())
     
     # Seleccionar un país de la lista
     paises = df.iloc[:, 0].unique()  # Obtener lista única de países
